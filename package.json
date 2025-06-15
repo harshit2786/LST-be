@@ -1,0 +1,36 @@
+{
+  "name": "lst-be",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -b --watch & nodemon dist/index.js",
+    "start": "tsc -b && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshit2786/LST-be.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshit2786/LST-be/issues"
+  },
+  "homepage": "https://github.com/harshit2786/LST-be#readme",
+  "description": "",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.2",
+    "@types/bs58": "^4.0.4",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "bs58": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "i": "^0.3.7",
+    "npm": "^11.4.2",
+    "typescript": "^5.8.3"
+  }
+}
